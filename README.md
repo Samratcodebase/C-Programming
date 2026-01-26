@@ -168,8 +168,16 @@ return 0 ;
 }
 
 
+# Relational Operator 
+
+* < , > , <= , >= , == , !=*
+[Evaluation Result will be always in True or Flase]
+True  = 1
+False = 0
+
+
+
 
 
 
 ```
-````
