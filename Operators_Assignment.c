@@ -111,6 +111,20 @@
 //     return 0;
 // }
 
+// wap to make the last Digit of the number stored in a variable as zero
+//[Example if x =2345 THEN make it x=2340]
+
+// #include <stdio.h>
+// int main()
+// {
+//     int x;
+//     printf("Enter a Number:-");
+//     scanf("%d", &x);
+//     x /= 10;
+//     x*=10;
+//     printf("Result %d", x);
+// }
+
 // WAP to input a number from the user and also input a digit . Append a Digit in the number and print the resulting number.
 // Example:Number=234 and Digit=9 then the resulting number is 2349
 
