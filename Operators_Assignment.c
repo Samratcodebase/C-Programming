@@ -150,3 +150,27 @@
 //     }
 //     return 0;
 // }
+
+// Assume Price of 1 USD is INR 84.23 , WAP to take the amount in USD and Convert it into INR
+
+#include <stdio.h>
+int main()
+{
+    float INR = 84.23;
+    float USD;
+    printf("Enter USD:");
+    scanf("%f", &USD);
+    USD *= INR;
+    printf("USD TO INR  %.2f", USD);
+    /*
+    Controlling digits AFTER the decimal (the correct way)
+
+    control this when printing, using printf.
+
+    Example : 2 digits after decimal
+            Printf("%.2f\n", c);
+
+    General form
+        printf("%.<N>f", value);
+  */
+}
