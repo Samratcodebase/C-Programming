@@ -147,9 +147,7 @@ f
 15  : 00000000 00000000 00000000 00001111
       [Shfted the Bits to Right 3 times]
 
-
-
-
+-----------------------------------------
 
 # BitWise Left Shift [<<]: Its a Unarry Operator
 
