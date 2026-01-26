@@ -175,8 +175,11 @@ return 0 ;
 True  = 1
 False = 0
 
+# Logical Operator 
 
-
+|| -> OR
+&& -> AND
+!  -> NOT [UNARY Operator]
 
 
 
