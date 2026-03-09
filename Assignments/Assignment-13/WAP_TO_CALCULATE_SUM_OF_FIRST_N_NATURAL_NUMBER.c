@@ -15,5 +15,6 @@ int main()
     {
         sum += i;
     }
-    printf("Sum is %d", sum); return 0;
+    printf("Sum is %d", sum);
+    return 0;
 }
