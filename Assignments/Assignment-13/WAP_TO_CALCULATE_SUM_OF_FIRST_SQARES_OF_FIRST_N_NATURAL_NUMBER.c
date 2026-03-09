@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int sqr = 0;
+    int sum = 0;
+    int n = 0;
+    printf("Enter the Number :");
+    scanf("%d", &n);
+    if (n == 0)
+    {
+        printf("Pls Enter a Non zero Value");
+        /* code */
+    }
+
+    for (int i = 1; i <= n; i++)
+    {
+    
+        
+            sqr = i * i;
+            sum += sqr;
+        
+    }
+    printf("Sum is %d", sum);
+    return 0;
+}
